@@ -6,5 +6,10 @@
     apt:
      name: git
      state: present
+  - name: yo install tree
+    apt:
+     name: tree
+     state: present
+     
 
  
